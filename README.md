@@ -17,25 +17,25 @@ chmod +x .install.sh
 ```
 # Used packages
 [ System ]
-Name     | Type                 |
----------|----------------------|
-Hyprland | Window Manager       |
-Waybar   | Status Bar           |
-Wofi     | App launcher         |
-Nautilus | File Browser         |
-Pipewire | Audio & Video Server |
-Foot     | Terminal             |
-Fish     | Shell                |
-Grim     | Screenshot           |
-Slurp    | Screenshot           |
-SwayBG   | Wallpaper            |
-WLogout  | Logout Screen        |
-Ly       | Display Manager      |
+Name     | Package Name     | Type                 |
+---------|------------------|----------------------|
+Hyprland | `hyprland`       | Window Manager       |
+Waybar   | `waybar`         | Status Bar           |
+Wofi     | `wofi`           | App launcher         |
+Nautilus | `nautilus`       | File Browser         |
+Pipewire | `pipewire-pulse` | Audio & Video Server |
+Foot     | `foot`           | Terminal             |
+Fish     | `fish`           | Shell                |
+Grim     | `grim`           | Screenshot           |
+Slurp    | `slurp`          | Screenshot           |
+SwayBG   | `swaybg`         | Wallpaper            |
+WLogout  | `wlogout`        | Logout Screen        |
+Ly       | `ly`             | Display Manager      |
 
 <br>
 
 [ Apps ]
-Name               | Type                 |
--------------------|----------------------|
-Brave              | Browser              |
-Visual Studio Code | IDE                  |
+Name               | Package Name             | Type                 |
+-------------------|--------------------------|----------------------|
+Brave              | `brave-bin`              | Browser              |
+Visual Studio Code | `visual-studio-code-bin` | IDE                  |
