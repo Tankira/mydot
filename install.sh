@@ -12,18 +12,18 @@ EOF
 
 
 # =========================== #
-# |							| #
-# |		   VARIABLES		| #
-# |							| #
+# |                         | #
+# |        VARIABLES        | #
+# |                         | #
 # =========================== #
 PROCESSOR=$(lscpu -e=modelname -J | jq '."cpus"[1].modelname')
 LINUX_KERNEL=$(uname -r)
 ARCHITECTURE=$(uname -m)
 
 # =========================== #
-# |							| #
-# |		    OS INFO 		| #
-# |							| #
+# |			    | #
+# |	    OS INFO         | #
+# |		            | #
 # =========================== #
 echo "========================================="
 echo Processor: $PROCESSOR
@@ -45,6 +45,7 @@ case $choice in
 			cd
 			rm -rf yay
 		fi
+  		yay -S ttf-ibm-plex-git ttf-nerd-fonts-symbols noto-fonts noto-fonts-emoji --needed --noconfirm
 		cp -rf $PWD/.config ~
 		sudo systemctl enable ly.service
 		echo System will reboot in 3 seconds...
