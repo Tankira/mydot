@@ -1,5 +1,6 @@
 # Tankira's Dotfiles 🌈
-Hyprland Dotfiles.
+Just my hyprland dotfiles.
+
 # Installation
 > [!NOTE]
 > The installation script is designed for [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) and some [Arch-based distro](https://wiki.archlinux.org/title/Arch-based_distributions), not for all Linux Distro.
