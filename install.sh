@@ -21,9 +21,9 @@ LINUX_KERNEL=$(uname -r)
 ARCHITECTURE=$(uname -m)
 
 # =========================== #
-# |			    | #
-# |	    OS INFO         | #
-# |		            | #
+# |                         | #
+# |         OS INFO         | #
+# |                         | #
 # =========================== #
 echo "========================================="
 echo Processor: $PROCESSOR
@@ -37,7 +37,7 @@ echo "[X] Exit"
 read -p "Enter your choice: " choice;
 case $choice in
 	1) 
-		sudo pacman -Syu --needed git base-devel hyprland waybar wofi nautilus pipewire-pulse foot fish grim slurp swaybg wlogout ly polkit-gnome --noconfirm
+		sudo pacman -Syu --needed git base-devel hyprland waybar wofi nautilus pipewire-pulse foot fish grim slurp swaybg ly fastfetch polkit-gnome --noconfirm
 		if ! [ -f /bin/yay ]; then
 			git clone https://aur.archlinux.org/yay.git ~/yay
 			cd ~/yay
@@ -45,14 +45,15 @@ case $choice in
 			cd
 			rm -rf yay
 		fi
-  		yay -S ttf-ibm-plex-git ttf-nerd-fonts-symbols noto-fonts noto-fonts-emoji --needed --noconfirm
+  		yay -S brave-bin visual-studio-code-bin wlogout ttf-ibm-plex-git ttf-nerd-fonts-symbols noto-fonts noto-fonts-emoji --needed --noconfirm
 		cp -rf $PWD/.config ~
+		chsh -s "/usr/bin/fish"
 		sudo systemctl enable ly.service
 		echo System will reboot in 3 seconds...
 		sleep 3
 		reboot ;;
 	2) 
-		cp $PWD/.config ~
+		cp -rf $PWD/.config ~
 		echo Installation complete!
 		exit ;;
 	x) exit ;;
