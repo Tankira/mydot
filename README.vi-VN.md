@@ -18,25 +18,25 @@ chmod +x .install.sh
 
 # Package được sử dụng
 [ Hệ thống ]
-Name     | Type                 |
----------|----------------------|
-Hyprland | Window Manager       |
-Waybar   | Status Bar           |
-Wofi     | App launcher         |
-Nautilus | File Browser         |
-Pipewire | Audio & Video Server |
-Foot     | Terminal             |
-Fish     | Shell                |
-Grim     | Screenshot           |
-Slurp    | Screenshot           |
-SwayBG   | Wallpaper            |
-WLogout  | Logout Screen        |
-Ly       | Display Manager      |
+Tên      | Tên gói          | Thể loại             |
+---------|------------------|----------------------|
+Hyprland | `hyprland`       | Window Manager       |
+Waybar   | `waybar`         | Status Bar           |
+Wofi     | `wofi`           | App launcher         |
+Nautilus | `nautilus`       | File Browser         |
+Pipewire | `pipewire-pulse` | Audio & Video Server |
+Foot     | `foot`           | Terminal             |
+Fish     | `fish`           | Shell                |
+Grim     | `grim`           | Screenshot           |
+Slurp    | `slurp`          | Screenshot           |
+SwayBG   | `swaybg`         | Wallpaper            |
+WLogout  | `wlogout`        | Logout Screen        |
+Ly       | `ly`             | Display Manager      |
 
 <br>
 
-[ Ứng dụng ]
-Name               | Type                 |
--------------------|----------------------|
-Brave              | Browser              |
-Visual Studio Code | IDE                  |
+[ Apps ]
+Tên                | Tên gói                  | Thể loại             |
+-------------------|--------------------------|----------------------|
+Brave              | `brave-bin`              | Browser              |
+Visual Studio Code | `visual-studio-code-bin` | IDE                  |
