@@ -26,10 +26,11 @@ Nautilus | `nautilus`       | File Browser         |
 Pipewire | `pipewire-pulse` | Audio & Video Server |
 Foot     | `foot`           | Terminal             |
 Fish     | `fish`           | Shell                |
+Fastfetch| `fastfetch`      | System Info Display  |
 Grim     | `grim`           | Screenshot           |
 Slurp    | `slurp`          | Screenshot           |
 SwayBG   | `swaybg`         | Wallpaper            |
-WLogout  | `wlogout`        | Logout Screen        |
+WLogout  | `wlogout (aur)`  | Logout Screen        |
 Ly       | `ly`             | Display Manager      |
 
 <br>
@@ -39,3 +40,12 @@ Name               | Package Name             | Type                 |
 -------------------|--------------------------|----------------------|
 Brave              | `brave-bin`              | Browser              |
 Visual Studio Code | `visual-studio-code-bin` | IDE                  |
+
+<br>
+
+[Fonts]
+Name              | Package Name     
+------------------|-------------------------------
+Noto Sans         | `noto-fonts noto-fonts-emoji`
+IBM Plex          | `ttf-ibm-plex-git (aur)`
+Nerd Fonts Symbol | `ttf-nerd-fonts-symbols`
