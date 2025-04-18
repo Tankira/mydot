@@ -5,7 +5,8 @@ Chỉ là một rice nho nhỏ vui vui của Tankira thôi :Đ.<br><br>
 
 # Cài đặt
 > [!NOTE]
-> Script cài đặt được thiết kế cho [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) và [các distro dựa trên Arch](https://wiki.archlinux.org/title/Arch-based_distributions), không dành cho các Linux Distro khác.
+> Script cài đặt được thiết kế dành riêng cho [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) và [các distro dựa trên Arch](https://wiki.archlinux.org/title/Arch-based_distributions), không dành cho các Linux Distro khác.<br>
+> Bạn gặp vấn đề trong script cài đặt? Nói cho mình biết thêm về vấn đề mà bạn đang gặp phải [tại đây](https://github.com/Tankira/mydot/issues/new).
 
 Để cài đặt, chạy các dòng lệnh sau:
 ```bash
