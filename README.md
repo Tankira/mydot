@@ -5,7 +5,8 @@ Just my hyprland dotfiles.<br><br>
 
 # Installation
 > [!NOTE]
-> The installation script is designed for [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) and some [Arch-based distro](https://wiki.archlinux.org/title/Arch-based_distributions), not for all Linux Distro.
+> The installation script is designed for [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) and some [Arch-based distro](https://wiki.archlinux.org/title/Arch-based_distributions), not for all Linux Distro.<br>
+> You have an issue/problem in installation script? Tell me more about your issue/problem [here](https://github.com/Tankira/mydot/issues/new)
 
 To install, execute the following commands:
 ```bash
