@@ -15,3 +15,27 @@ cd mydot
 chmod +x .install.sh
 ./install.sh
 ```
+# Used packages
+[ System ]
+Name     | Type                 |
+---------|----------------------|
+Hyprland | Window Manager       |
+Waybar   | Status Bar           |
+Wofi     | App launcher         |
+Nautilus | File Browser         |
+Pipewire | Audio & Video Server |
+Foot     | Terminal             |
+Fish     | Shell                |
+Grim     | Screenshot           |
+Slurp    | Screenshot           |
+SwayBG   | Wallpaper            |
+WLogout  | Logout Screen        |
+Ly       | Display Manager      |
+
+<br>
+
+[ Apps ]
+Name               | Type                 |
+-------------------|----------------------|
+Brave              | Browser              |
+Visual Studio Code | IDE                  |
