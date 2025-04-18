@@ -1,0 +1,55 @@
+* {
+	font-family: "IBM Plex Mono";
+    padding: 0;
+    margin: 0;
+}
+
+#waybar {
+	color: #fff;
+	background: none;
+}
+
+#custom-wofi,
+#custom-wlogout {
+	color: #EDDAB2;
+	background: #2F1B0F;
+	border-radius: .5rem;
+	padding: .5rem .75rem;
+	font-size: 1.25rem;
+}
+
+#tray {
+	color: #EDDAB2;
+	background: #2F1B0F;
+	border-radius: .75rem;
+	padding: 0 .75rem;
+	margin-right: .5rem;
+}
+
+#pulseaudio,
+#network,
+#clock {
+	color: #EDDAB2;
+	background: #2F1B0F;
+	border-radius: .75rem;
+	padding: 0 .75rem;
+	font-size: 1.25rem;
+	margin-right: .5rem;
+}
+
+
+#clock {
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+.horizontal {
+	margin: .25rem .25rem 0 .25rem;
+}
+
+tooltip {
+	color: #EDDAB2;
+	background: #2F1B0F;
+	font-size: .75rem;
+	font-weight: 600;
+}

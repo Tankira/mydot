@@ -1,0 +1,97 @@
+* {
+	font-family: "IBM Plex Sans";
+	font-weight: 600;
+}
+
+#waybar {
+	color: #faf8ec;
+	background: none;
+}
+
+
+/* MODULES LEFT */
+.modules-left {
+	background-color: #2F1B0F;
+	border-radius: 2rem;
+}
+
+#custom-wofi {
+	color: #faf8ec;
+	font-size: 1.25rem;
+	font-weight: 400;
+	background-color: #6e4825;
+	padding: 0 1rem;
+	border-radius: 2rem;
+	transition: background .5s ease;
+}
+#custom-wofi:hover {
+	background-color: #a4762a;
+}
+
+#taskbar {
+	padding: 0 .5rem 0 0;
+}
+
+#taskbar button {
+	border: none;
+	box-shadow: none;
+	text-shadow: none;
+	background: none;
+	transition: none;
+}
+
+#taskbar.empty {
+	padding: 0;
+}
+
+/* MODULES CENTER */
+#custom-music {
+	background-color: #2F1B0F;
+	border-radius: 2rem;
+	padding: 0 1rem;
+}
+
+
+/* MODULES RIGHT */
+#tray {
+	color: #faf8ec;
+	background-color: #2F1B0F;
+	padding: 0 1rem;
+	border-radius: 2rem;
+	margin: 0 .25rem 0 0;
+}
+
+#pulseaudio {
+	color: #faf8ec;
+	background-color: #2F1B0F;
+	padding: 0 .5rem 0 1rem;
+	border-radius: 2rem 0 0 2rem;
+}
+
+#network,
+#clock {
+	color: #faf8ec;
+	background-color: #2F1B0F;
+	padding: 0 .5rem;
+}
+
+#custom-wlogout {
+	color: #faf8ec;
+	background-color: #2F1B0F;
+	padding: 0 1rem 0 .5rem;
+	border-radius: 0 2rem 2rem 0;
+}
+
+#pulseaudio,
+#network,
+#custom-wlogout {
+	font-size: 1.25rem;
+}
+
+
+/* TOOLTIP */
+tooltip {
+	color: #faf8ec;
+	background-color: #2F1B0F;
+	border: none;
+}

@@ -1,0 +1,57 @@
+{
+	"layer": "top",
+	"position": "top",
+    "height": 32,
+    "margin": "8px",
+    "spacing": "8px",
+	"modules-left": ["custom/wofi", "wlr/taskbar"],
+    "modules-center": ["custom/music"],
+	"modules-right": ["tray","pulseaudio","network","clock","custom/wlogout"],
+	"custom/wofi": {
+		"format": "󰣇",
+		"on-click": "wofi --show drun --allow-images",
+		"tooltip": false
+	},
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 16,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+    },
+    "custom/music": {
+        "format": "{}",
+        "interval": 1,
+        "exec": "playerctl metadata --format '󰎈 {{title}} - {{artist}}'",
+        "tooltip": false,
+        "on-click-middle": "playerctl play-pause",
+        "on-click": "playerctl previous",
+        "on-click-right": "playerctl next"  
+    },
+	"tray": {
+	    "icon-size": 16,
+	    "spacing": 10
+	},
+    "pulseaudio": {
+        "format": "󰕾",
+        "format-muted": "󰝟",
+        "tooltip": true,
+        "tooltip-format": "Volume: {volume}%"
+    },
+    "network": {
+        "format": "󰤨",
+        "format-disconnected": "󰤮",
+        "tooltip": true,
+        "tooltip-format": "Connected to {essid}"
+    },
+    "clock": {
+        "format": "{:%R}",
+        "locale": "vi_VN.utf8",
+        "tooltip": true,
+        "tooltip-format": "{:%A, %d %B %Y}"
+    },
+    "custom/wlogout": {
+        "format": "󰐥",
+        "on-click": "wlogout",
+        "tooltip": false
+    }
+}
