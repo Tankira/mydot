@@ -1,7 +1,7 @@
 # Tankira's Dotfiles 🌈
 Chỉ là một rice nho nhỏ vui vui của Tankira thôi :Đ.<br><br>
-<a href="https://github.com/Tankira/mydot/README.md"><kbd> <br> <b>🇺🇸 English</b> <br> </kbd></a>
-<a href="https://github.com/Tankira/mydot/README.vi-VN.md"><kbd> <br> <b>🇻🇳 Tiếng Việt</b> <br> </kbd></a>
+<a href="https://github.com/Tankira/mydot/blob/main/README.md"><kbd> <br> <b>🇺🇸 English</b> <br> </kbd></a>
+<a href="https://github.com/Tankira/mydot/blob/main/README.vi-VN.md"><kbd> <br> <b>🇻🇳 Tiếng Việt</b> <br> </kbd></a>
 
 # Cài đặt
 > [!NOTE]
