@@ -3,7 +3,7 @@ Just my hyprland dotfiles.<br><br>
 <a href="https://github.com/Tankira/mydot/blob/main/README.md"><kbd> <br> <b>🇺🇸 English</b> <br> </kbd></a>
 <a href="https://github.com/Tankira/mydot/blob/main/README.vi-VN.md"><kbd> <br> <b>🇻🇳 Tiếng Việt</b> <br> </kbd></a>
 
-# Installation
+# ⚙️ Installation
 > [!NOTE]
 > The installation script is designed for [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) and some [Arch-based distro](https://wiki.archlinux.org/title/Arch-based_distributions), not for all Linux Distro.<br>
 > You have an issue/problem in installation script? Tell me more about your issue/problem [here](https://github.com/Tankira/mydot/issues/new)
@@ -16,7 +16,11 @@ cd mydot
 chmod +x .install.sh
 ./install.sh
 ```
-# Used packages
+
+# 📸 Screenshot
+![img01.png](https://raw.githubusercontent.com/Tankira/mydot/refs/heads/main/assets/img01.png)
+
+# 📦 Used packages
 [ System ]
 Name     | Package Name     | Type                 |
 ---------|------------------|----------------------|
